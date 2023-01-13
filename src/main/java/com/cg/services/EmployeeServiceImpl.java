@@ -19,6 +19,10 @@ public class EmployeeServiceImpl implements EmployeeService {
 	@Autowired
 	private EmployeeRepository empRepo;
 
+	public EmployeeServiceImpl(EmployeeRepository empRepo2) {
+		// TODO Auto-generated constructor stub
+	}
+
 	@Override
 	public Employee addEmployee(Employee emp) {
 
